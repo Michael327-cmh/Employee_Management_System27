@@ -1,0 +1,24 @@
+{
+  "name": "employee_management_system27",
+  "version": "1.0.0",
+  "description": "This repository is designed to provide the user with interactive capabilities to the EMS database, including addition, subtraction, and general queries based on categories available.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael327-cmh/Employee_Management_System27.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael327-cmh/Employee_Management_System27/issues"
+  },
+  "homepage": "https://github.com/Michael327-cmh/Employee_Management_System27#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.1.2"
+  }
+}
