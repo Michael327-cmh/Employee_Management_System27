@@ -1,19 +1,38 @@
+INSERT INTO  employee (id, first_name, last_name)
+VALUES
+    ( 1, "John", "Doe" ),
+    ( 2, "Mike", "Chan" ),
+    ( 3, "Ashley", "Rodriguez" ),
+    ( 4, "Kevin", "Tupik" ),
+    ( 5, "Kunal", "Singh" ),
+    ( 6, "Malia", "Brown" ),
+    ( 7, "Sarah", "Lourd" ),
+    ( 8, "Tom", "Allen");
 
+SELECT * FROM employee;
 
+INSERT INTO employeeRole (job_title, salary)
+VALUES
+    ( "Sales Lead", 100000 ),
+    ( "Salesoerson", 80000 ),
+    ( "Lead Engineer", 150000),
+    ( "Software Engineer", 120000),
+    ( "Account Manager", 160000),
+    ( "Accountant", 125000),
+    ( "Legal Team Lead", 250000),
+    ( "Lawyer", 190000);
 
+SELECT * FROM employeeRole;
 
+INSERT INTO department (dTitle, manager)
+VALUES
+    ( "Sales", "null" ),
+    ( "Sales", "John Doe" ),
+    ( "Engineering", "null" ),
+    ( "Engineering", "Ashley Rodriguez" ),
+    ( "Finance", "null" ),
+    ( "Finance", "Kunal Singh" ),
+    ( "Legal", "null" ),
+    ( "Legal", "Sarah Lourd" );
 
-
-all departments = table showing department names and department ids
-
-all roles = table showing job title, role id, deparment, salary
-
-all employees = table showing employee id, first name, last name, job title, department, salaries, direct managers
-
-add department = prompted to enter the name of the department and department is added to database
-
-add role = prompted to enter the role and role is added to database
-
-add employee = prompted to enter the employee''s first name, last name, role, and direct manager and employee is added to database
-
-update employee role = prompted to select employee to update their new role and database is updated with change.
+SELECT * FROM department;
